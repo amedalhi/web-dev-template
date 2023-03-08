@@ -1,0 +1,4 @@
+.button {
+  outline-color: transparent;
+  /* outline-color is bettter transparent than none for keyboard nav users */
+}

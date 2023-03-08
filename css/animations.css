@@ -1,0 +1,7 @@
+@media (prefers-reduced-motion: no-preference) {
+  /* Different options: */
+  /* no-preference: activate all animation */
+  /* reduced: reduces animations, buggy at times */
+  /*  */
+  /* animations can go here */
+} ;
