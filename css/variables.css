@@ -1,25 +1,33 @@
 /************************************************************************/
-/*--------------------------ROOT----------------------------------------*/
+/*--------------------------VARIABLES-----------------------------------*/
 /************************************************************************/
 
 :root {
   /* COLORS */
-  --primary-color: #fafafa;
-  --text-color: #2d2d2d;
 
-  --secondary-color: #ff3821;
-  --secondary-color-tint: #ff604d;
-  --secondary-color-tint-transparent: #ff5f4d27;
-  --secondary-color-shade: #cc2d1a;
+  --primary-clr: #ff351f;
+  --primary-clr-tint: #ff604d;
+  --primary-clr-shade: #cc2d1a;
 
-  --accent-color: #333333;
+  --secondary-clr: #ff3821;
+  --secondary-clr-tint: #ff604d;
+  --secondary-clr-shade: #cc2d1a;
 
-  --grey-light: #999;
-  --grey-extra-light: #bbb;
+  --text-clr: #2d2d2d;
+
+  --white-clr: #fafafa;
+  --black-clr: #333;
+
+  --grey-clr: #666;
+  --grey-clr-light: #999;
+  --grey-clr-extra-light: #bbb;
 
   /* TYPEFACE */
-  --primary-font: "Inter", sans-serif;
-  --secondary-font: "Urbanist", sans-serif;
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Urbanist", sans-serif;
+
+  --ff-heading: var(--font-primary);
+  --ff-body: var(--font-primary);
 
   /*FONT STEPS - 1.333 Perfect Fourth Scale*/
   --step--2: 0.563rem;
@@ -30,8 +38,12 @@
   --step-3: 2.369rem;
   --step-4: 3.157rem;
   --step-5: 4.209rem;
-  --step-xl: 5.61rem;
-  --step-xxl: 7.48rem;
+  --step-6: 5.61rem;
+  --step-7: 7.48rem;
+
+  --fs-body: var(--step-0);
+  --fs-heading: var(--step-4);
+  --fs-subheading: var(--step-2);
 
   /*SPACING*/
   --space-3xs: 0.125rem;
@@ -46,34 +58,30 @@
   /* 1,1.5,2,3,4,8 */
 
   /* FONT WEIGHTS */
-  --bold: 700;
+  --fw-thin: 100;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* BORDER RADIUS */
+  --border-smooth: 7px;
+  --border-sharp: 3px;
+  --border-circle: 50%;
 
   /*LETTER SPACING*/
   --letter-space-base: 0.2rem;
 
-  /* BORDER RADIUS */
-  --smooth: 7px;
+  /*LINE HEIGHTS*/
+
+  /* MARGINS */
+
+  /* PADDINGS */
+
+  /* SHADOWS */
 
   /*Z-Transform*/
   --small: translateZ(1rem);
   --medium: translateZ(2rem);
   --large: translateZ(3rem);
 }
-
-/*
-
-WHITESPACE 
---2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-
-LINE HEIGHTS
-
-LETTER SPACING 
-
-
-
-Margins
---Top
---Sides
---Bottom: 
-*/
