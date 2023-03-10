@@ -1,4 +1,8 @@
 .button {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-s);
+  font-family: var(--ff-heading);
+  /* font-size: var(--fs-body); */
   outline-color: transparent;
   /* outline-color is bettter transparent than none for keyboard nav users */
 }

@@ -85,3 +85,80 @@
   --medium: translateZ(2rem);
   --large: translateZ(3rem);
 }
+
+/************************************************************************/
+/*-------------------------UTILITY CLASSES------------------------------*/
+/************************************************************************/
+
+/* COLORS */
+
+.primary-clr {
+  color: var(--primary-clr);
+}
+.primary-clr-tint {
+  color: var(--primary-clr-tint);
+}
+.primary-clr-shade {
+  color: var(--primary-clr-shade);
+}
+
+.secondary-clr {
+  color: var(--secondary-clr);
+}
+.secondary-clr-tint {
+  color: var(--secondary-clr-tint);
+}
+.secondary-clr-shade {
+  color: var(--secondary-clr-shade);
+}
+
+.white-clr {
+  color: var(--white-clr);
+}
+.black-clr {
+  color: var(--black-clr);
+}
+
+/* TYPEFACE */
+
+.ff-primary {
+  font-family: var(--ff-primary);
+}
+.ff-secondary {
+  font-family: var(--ff-secondary);
+}
+
+.ff-heading {
+  font-family: var(--ff-heading);
+}
+.ff-body {
+  font-family: var(--ff-body);
+}
+
+/* FONT STEPS */
+.fs-body {
+  font-size: var(--fs-body);
+}
+.fs-heading {
+  font-size: var(--fs-heading);
+}
+.fs-subheading {
+  font-size: var(--fs-subheading);
+}
+
+/* FONT WEIGHTS */
+.fw-thin {
+  font-weight: var(--fw-thin);
+}
+.fw-light {
+  font-weight: var(--fw-light);
+}
+.fw-normal {
+  font-weight: var(--fw-normal);
+}
+.fw-medium {
+  font-weight: var(--fw-medium);
+}
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
