@@ -26,8 +26,8 @@
   --ff-primary: "Inter", sans-serif;
   --ff-secondary: "Urbanist", sans-serif;
 
-  --ff-heading: var(--font-primary);
-  --ff-body: var(--font-primary);
+  --ff-heading: var(--ff-primary);
+  --ff-body: var(--ff-secondary);
 
   /*FONT STEPS - 1.333 Perfect Fourth Scale*/
   --step--2: 0.563rem;

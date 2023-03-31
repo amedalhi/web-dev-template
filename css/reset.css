@@ -64,9 +64,15 @@ h6 {
   overflow-wrap: break-word;
 }
 
-ul[role="list"],
-ol[role="list"] {
+ul,
+ol {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

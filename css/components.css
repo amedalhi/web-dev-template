@@ -1,3 +1,4 @@
+/*Buttons*/
 .button {
   display: inline-block;
   padding: var(--space-xs) var(--space-s);
@@ -5,4 +6,28 @@
   /* font-size: var(--fs-body); */
   outline-color: transparent;
   /* outline-color is bettter transparent than none for keyboard nav users */
+}
+
+/*Nav*/
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-body);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: var(--space-m);
+}
+
+.nav-items:is(:link, :visited) {
+  color: var(--secondary-clr);
+  transition: color 0.3s ease-in;
+}
+
+.nav-items:is(:hover, :active) {
+  color: var(--primary-clr-tint);
 }
